@@ -1,0 +1,8 @@
+.DS_Store
+.ipynb_checkpoints
+.sass-cache
+*.json
+env/
+models/*.model
+models/*.npy
+russian-troll-tweets/
