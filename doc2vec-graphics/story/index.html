@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Russian Twitter Trolls</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Russian Twitter Trolls</h1>
+		</header>
+		<div id="wrapper">
+			<div id="inner-wrapper">
+				<div id="viz-wrapper"></div>
+				<div id="text-wrapper">
+					<p>This is one way of visualizing Russian troll accounts and their Twitter posts in the lead up to the 2016 election. Each square in this grid represents a particular way of tweeting, and the closer two squares are, the more similar those ways of tweeting are; the further two squares away are, the more dissimilar. The more colored in a square is, the more Russian trolls tweeted that particular way.</p>
+					<p>I clustered all the Russian trolls by the way that they tweets into 8 clusters, and all eight are represented here as different colors.</p>
+					<p>The researchers who assembled this dataset categorized each troll account. Some were “left trolls," who impersonated left-leaning folks. Here, I’ve hidden all but the left trolls.</p>
+					<p>Some were “right trolls,” impersonating right-leaning people. Now, I’ve hidden all but the right trolls.</p>
+					<p>We’re going to focus on four different clusters and these two kinds of trolls.</p>
+					<p>I’ve named this cluster the exclusively left troll cluster, because all of its 112 users were classified as “left trolls.” Some of words they used most often include the hashtag <em>blacklivesmatter</em>, <em>blacktwitter</em>, and <em>cops</em>.</p>
+					<p>I’ve named these two clusters the exclusively right troll cluster because almost 90 percent of its 142 users were classified as “right trolls.” Some of the words they used most often included the hashtags <em>tcot</em> (top conservative on Twitter), <em>ccot</em> (Christian conservative on Twitter), and at-mentions of <em>realdonaldtrump</em>.</p>
+					<p>This cluster, the largest cluster, I’ve named the mixed-up cluster because several types of trolls have substantial representation among its 586 users. Some of the words they used most often included hashtags for <em>demdebate</em>, <em>gopdebate</em>, and <em>vegasgopdebate</em>.</p>
+					<p>This shows that the Russian trolls were sophisticated enough to make some of their left- and right-impersonating trolls interested in procedural topics, while keeping others focused on uniquely left- or right-leaning topics.</p>
+					<p>Thanks to Clemson University researchers Darren Linvill and Patrick Warren for <a href="https://github.com/fivethirtyeight/russian-troll-tweets/">assembling the data</a> used in this analysis. Thanks, too, to <em>FiveThirtyEight</em> for <a href="https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/">deciding to release it</a>. To see how I built this—and to check my work—head over to <a href="https://github.com/jswest/russian-troll-tweets-exploration">my GitHub</a>.</p>
+				</div>
+			</div>
+		</div>
+		<script src="d3.min.js"></script>
+		<script src="instructions.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
